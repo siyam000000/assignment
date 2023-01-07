@@ -3,14 +3,6 @@
     margin: 0;
     font-family: sans-serif;
 }
-nav{
-    display: flex;
-    
-}
-.div-nav li{
-    text-decoration: none;
-    list-style: none;
-}
 header{
     display: flex;
     background-image: url('../images/banner/banner3.png');
