@@ -172,6 +172,12 @@ header{
     color: #ffffff;
     margin-bottom: 10px;
 }
+.social-icon{
+    width: 47px;
+    height: 46px;
+    padding: 10px;
+
+}
 
 .footer-sub{
     margin: 130px 190px;
@@ -189,9 +195,10 @@ header{
 #footer-btn{
     width: 170px;
     height: 64px;
-    background-color: #005FAC;
     border-radius: 8px;
-    color: #FFFFFF;
     font-size: 20px;
     font-weight: 600;
+    color: white;
+    background-color: purple;
+    border: 2px solid white;
 }
