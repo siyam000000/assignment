@@ -40,7 +40,10 @@ header{
     align-items: right;
     font-size: 20px;
     font-weight: 600;
-    color: aqua;
+    color: white;
+    background-color: purple;
+    border-radius: 10px;
+    border: 2px solid white;
     width: 160px;
     height: 64px;
     
@@ -113,14 +116,41 @@ header{
     color: #737272;
     text-align: center;
 }
-.bonus{
-    /* background-image: url(/images/banner/banner3.png) url(/images/gradient3.png);
-    background-blend-mode: lighten; */
-    background-image: linear-gradient(to right, red , yellow);
+.gradient{
+    /* bonus work */
+    background-image: url(../images/gradient3.png), url(../images/watch.png);
     width: 1140px;
     height: 300px;
     margin: 130px 200px;
+    justify-content: right;
 }
+.bonus{
+    display: flex;
+    padding-top: 70px;
+    width: 459px;
+    height: 182px;
+    margin: 60px;
+}
+#gradient-h{
+    font-size: 40px;
+    font-weight: 700;
+
+    color: #FFFFFF;
+
+}
+#gradient-btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: purple;
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 160px;
+    height: 64px;
+    margin-top: 10px;
+
+}
+/* footer work */
 .footer{
     display: flex;
     background-color: #000000;
